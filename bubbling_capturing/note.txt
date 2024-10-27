@@ -1,0 +1,20 @@
+Rule :
+first capturing happens
+then bubbling happens
+
+In reality
+Grandparent => Parent => Child => Child => Parent => Grandparent
+
+In case of bubbling Event : I am clicking child 
+   Child is called first
+   parent is called second
+   grandparent is called third
+
+
+In case of Capturing Event : I am clicking child 
+   Grandparent is called first
+   parent is called second
+   Child is called third
+
+ Capturing          Bubbling  
+gp-p-c-c-p-gp
